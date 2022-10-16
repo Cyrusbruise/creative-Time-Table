@@ -1,0 +1,93 @@
+* {
+  border-radius: 10%;
+  color: white;
+}
+
+#sky {
+  height: 100vh;
+  position: relative;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 10px;
+  right: 30px;
+  left: 30px;
+}
+
+.DAY {
+  background-color: black;
+  border-left: gold 4px;
+  border-left-style: solid;
+  font-size: 50px;
+  /* border-right: gold 4px ;    
+  border-right-style: groove;
+  border-top :solid 3px gold; */
+}
+
+tbody {
+  background-color: #00fffb;
+  margin: 10px;
+}
+
+h1 {
+  /* text-align: center; */
+  /* text-decoration: underline;  */
+  color: #ffff;
+  font-family: futara;
+  font-size: 50px;
+}
+
+table {
+  align-items: center;
+  text-align: center;
+  align-self: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.tahead {
+  background-color: black;
+  border-top: solid gold 3px;
+  font-size: 50px;
+  padding: 0 30px;
+}
+
+.tasubhead {
+  background-color: black;
+  border-top: solid rgb(0, 255, 0) 3px;
+  font-size: 40px;
+  padding: 10px 20px;
+}
+
+.lec {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+/* .lab{
+    font-family:  Tahoma;
+} */
+
+.lec:hover {
+  font-size: large;
+  text-shadow: black;
+  background-color: gold;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  font-size: 50px;
+}
+
+.lab:hover {
+  font-size: large;
+  background-color: rgb(0, 255, 0);
+}
+
+#labtime {
+  border-top: solid rgb(0, 255, 0) 3px;
+}
